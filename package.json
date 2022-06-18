@@ -1,0 +1,25 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "For Java Client",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "node ./dist/app.js",
+    "start": "nodemon ./dist/app.js"
+  },
+  "author": "MossTheFox",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13"
+  }
+}
